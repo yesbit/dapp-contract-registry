@@ -1,0 +1,44 @@
+{
+  "_from": "github:yesbit/dapp-contract-registry",
+  "_id": "dapp-contract-registry@1.0.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/dapp-contract-registry",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "dapp-contract-registry@github:yesbit/dapp-contract-registry",
+    "name": "dapp-contract-registry",
+    "escapedName": "dapp-contract-registry",
+    "rawSpec": "github:yesbit/dapp-contract-registry",
+    "saveSpec": "github:yesbit/dapp-contract-registry",
+    "fetchSpec": null,
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "github:yesbit/dapp-contract-registry#88a15f9749041ce996fc1e841e76608da346b3b0",
+  "_spec": "dapp-contract-registry@github:yesbit/dapp-contract-registry",
+  "_where": "/Users/Poutine/Desktop/yesbit/cra-client",
+  "author": {
+    "name": "Yesbit"
+  },
+  "bugs": {
+    "url": "https://github.com/yesbit/dapp-contract-registry/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "## Usage",
+  "homepage": "https://github.com/yesbit/dapp-contract-registry#readme",
+  "main": "index.js",
+  "name": "dapp-contract-registry",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yesbit/dapp-contract-registry.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
