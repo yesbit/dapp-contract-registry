@@ -1,6 +1,6 @@
 {
   "ropsten": {
-    "address": "0xCF24D3ee0aA3dD910E63912A4921707AE0812dEC",
+    "address": "0x7B0544a8931D1563Cb368417B4c4fa33D2aeDDD4",
     "abi": [
     {
       "constant": false,
@@ -94,21 +94,6 @@
     },
     {
       "constant": true,
-      "inputs": [],
-      "name": "val",
-      "outputs": [
-        {
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function",
-      "signature": "0x3c6bb436"
-    },
-    {
-      "constant": true,
       "inputs": [
         {
           "name": "",
@@ -190,21 +175,6 @@
     {
       "constant": true,
       "inputs": [],
-      "name": "has",
-      "outputs": [
-        {
-          "name": "",
-          "type": "bool"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function",
-      "signature": "0xb689d5ac"
-    },
-    {
-      "constant": true,
-      "inputs": [],
       "name": "authority",
       "outputs": [
         {
@@ -277,13 +247,18 @@
       "inputs": [
         {
           "indexed": false,
+          "name": "marketId",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
           "name": "val",
           "type": "uint256"
         }
       ],
       "name": "LogValue",
       "type": "event",
-      "signature": "0xfcf771399d75a67a6d0e730ae98d34c40b6bfe6ebf8053b98ddf4da8c2706250"
+      "signature": "0xa9a26360ded17bbe6528a5ec42df34cc22964927204d7a69575e12c6839d426c"
     },
     {
       "anonymous": false,
@@ -432,7 +407,7 @@
       "signature": "0xce241d7ca1f669fee44b6fc00b8eba2df3bb514eed0f6f668f8f89096e81ed94"
     },
     {
-      "constant": false,
+      "constant": true,
       "inputs": [],
       "name": "getStakeSize",
       "outputs": [
@@ -442,7 +417,7 @@
         }
       ],
       "payable": false,
-      "stateMutability": "nonpayable",
+      "stateMutability": "view",
       "type": "function",
       "signature": "0x76cc4b7e"
     },
@@ -559,6 +534,21 @@
       "constant": false,
       "inputs": [
         {
+          "name": "feed",
+          "type": "address"
+        }
+      ],
+      "name": "unset",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "signature": "0x2966d1b9"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
           "name": "pos",
           "type": "uint256"
         }
@@ -574,59 +564,25 @@
       "constant": false,
       "inputs": [
         {
-          "name": "feed",
-          "type": "address"
+          "name": "_marketId",
+          "type": "uint256"
         }
       ],
-      "name": "unset",
-      "outputs": [],
-      "payable": false,
-      "stateMutability": "nonpayable",
-      "type": "function",
-      "signature": "0x2966d1b9"
-    },
-    {
-      "constant": false,
-      "inputs": [],
-      "name": "void",
-      "outputs": [],
-      "payable": false,
-      "stateMutability": "nonpayable",
-      "type": "function",
-      "signature": "0xac4c25b2"
-    },
-    {
-      "constant": false,
-      "inputs": [],
       "name": "poke",
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
       "type": "function",
-      "signature": "0x18178358"
+      "signature": "0x32145f90"
     },
     {
       "constant": true,
-      "inputs": [],
-      "name": "peek",
-      "outputs": [
+      "inputs": [
         {
-          "name": "",
+          "name": "_marketId",
           "type": "uint256"
-        },
-        {
-          "name": "",
-          "type": "bool"
         }
       ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function",
-      "signature": "0x59e02dd7"
-    },
-    {
-      "constant": true,
-      "inputs": [],
       "name": "read",
       "outputs": [
         {
@@ -637,7 +593,7 @@
       "payable": false,
       "stateMutability": "view",
       "type": "function",
-      "signature": "0x57de26a4"
+      "signature": "0xed2e5a97"
     },
     {
       "constant": false,
@@ -861,22 +817,23 @@
     },
     {
       "constant": true,
-      "inputs": [],
+      "inputs": [
+        {
+          "name": "_marketId",
+          "type": "uint256"
+        }
+      ],
       "name": "compute",
       "outputs": [
         {
           "name": "",
           "type": "uint256"
-        },
-        {
-          "name": "",
-          "type": "bool"
         }
       ],
       "payable": false,
       "stateMutability": "view",
       "type": "function",
-      "signature": "0x1a43c338"
+      "signature": "0x5ed86d5c"
     }
   ]
   }
